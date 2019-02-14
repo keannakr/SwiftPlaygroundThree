@@ -25,4 +25,16 @@ print(fruitNames[1])
 print(fruitNames[0])
 
 //Part 8, Start of Assignment #4
+var numbers : [Int] = [1, 2, 3, 4 , 5]
+
+for items in numbers
+{
+    print("My favorite number is", (items))
+}
+
+print(numbers[0])
+print(numbers[1])
+
+let removed = numbers.remove(at:2)
+print(numbers)
 
