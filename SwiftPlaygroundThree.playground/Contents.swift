@@ -25,7 +25,7 @@ print(fruitNames[1])
 print(fruitNames[0])
 
 //Part 8, Start of Assignment #4
-var numbers : [Int] = [1, 2, 3, 4 , 5]
+var numbers : [Int] = [1, 2, 3, 4, 5]
 
 for items in numbers
 {
@@ -35,6 +35,7 @@ for items in numbers
 print(numbers[0])
 print(numbers[1])
 
+//Part 9
 let removed = numbers.remove(at:2)
 print(numbers)
 
